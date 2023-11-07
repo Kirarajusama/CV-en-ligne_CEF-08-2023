@@ -4,9 +4,10 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Différentes expériences professionnelles, formations et compétences de Julia JOUMARIN."/>
+    <title>CV de JJ</title>
+    <link rel="stylesheet" href="CSS/flex.css"/>
     <link rel="stylesheet" href="CSS/style.css"/>
     <link rel="icon" type="image/x-icon" href="Image/cv.png"/>
-    <title>CV de JJ</title>
 </head>
 <body>
    <header>
@@ -14,40 +15,39 @@
     <p>Julia JOUMARIN</p>
     <h1>Développeuse web junior</h1>
     <div>
-        <a href="https://maps.app.goo.gl/YAvtamGs5f4Vb9Tr6" target="_blank"> Tour Eiffel <br/>
-            75007 Paris </a> <br/>
-        <a href="mailto:email@email.com">email@email.com</a> <br/>
+        <p><a href="https://maps.app.goo.gl/YAvtamGs5f4Vb9Tr6" target="_blank"> Tour Eiffel <br/> 75007 Paris </a></p>
+        <a href="mailto:email@email.com">email@email.com</a>
         <a href="tel:0600000000">06.00.00.00.00</a>
         </div>
    </header> 
 
    <main>
-    <div>
+    <aside class="info-bar">
         <section>
-            <h2>A propos</h2>
-            <p>Jeune maman débrouillarde je sais faire preuve d'adaptation. Calme et sérieuse dans mon travail je sais être arangeante du moment qu'il n'y a pas d'abus. Souriante et pleine de ressources je peux amener de la joie et de la bonne humeur dans un endroit où je me sens en confiance.</p>
+            <h2 class="info-bar__title">A propos</h2>
+            <p class="info-bar__description">Jeune maman débrouillarde je sais faire preuve d'adaptation. Calme et sérieuse dans mon travail je sais être arangeante du moment qu'il n'y a pas d'abus. Souriante et pleine de ressources je peux amener de la joie et de la bonne humeur dans un endroit où je me sens en confiance.</p>
         </section>
         <section>
-            <h2>Langues parlées</h2>
-            <ul>
+            <h2 class="info-bar__title">Langues parlées</h2>
+            <ul class="info-nar__list">
                 <li>Français - Langues maternelle</li>
                 <li>Anglais - Débutant</li>
             </ul>
         </section>
         <section>
-            <h2>Centres d'interêt</h2>
-            <ul>
+            <h2 class="info-bar__title">Centres d'interêt</h2>
+            <ul class="info-nar__list">
                 <li>Musique</li>
                 <li>Loisir créatif</li>
                 <li>Animaux</li>
                 <li>Jeux vidéo</li>
             </ul>
         </section>
-    </div>
+    </aside>
 
-    <div>
+    <aside class="element">
         <section>
-            <h2>Expériences professionnelles</h2>
+            <h2 class="element__title">Expériences professionnelles</h2>
             <article>
                 <h3>Secrétaire médicale chez la SCM dentaire du golf</h3>
                 <p>De <time datetime="2022">2022</time> à ce jour <small>(CDI)</small></p>
@@ -135,7 +135,7 @@
         </section>
 
         <section>
-            <h2>Diplômes/Formations</h2>
+            <h2 class="element__title">Diplômes/Formations</h2>
             <article>
                 <h3>Développement web</h3>
                 <p>De <time datetime="2023">2023</time> à ce jour</p>
@@ -154,7 +154,7 @@
         </section>
 
         <section>
-            <h2>Compétences</h2>
+            <h2 class="element__title">Compétences</h2>
             <ul>
                 <li>HTML5 - Débutant</li>
                 <li>CSS3 - Débutant</li>
@@ -163,13 +163,15 @@
                 <li>Contact client - Bon</li>
             </ul>
         </section>
-    </div>
+    </aside>
    </main>
 
    <footer>
-    <a href="https://www.linkedin.com/in/julia-joumarin-b4461b216/" target="_blank"><img src="Image/linkedin.png" alt="Logo de linkedin"/></a> <br/>
-    <a href="https://twitter.com/?lang=fr" target="_blank"><img src="Image/twitter.png" alt="Logo de twitter"/></a> <br/>
-    <a href="https://github.com/Kirarajusama" target="_blank"><img src="Image/signe-github.png" alt="Logo de github"/></a> <br/>
+    <div>
+        <p><a href="https://www.linkedin.com/in/julia-joumarin-b4461b216/" target="_blank"><img src="Image/linkedin.png" alt="Logo de linkedin"/></a></p>
+        <p><a href="https://twitter.com/?lang=fr" target="_blank"><img src="Image/twitter.png" alt="Logo de twitter"/></a></p>
+        <p><a href="https://github.com/Kirarajusama" target="_blank"><img src="Image/signe-github.png" alt="Logo de github"/></a></p>
+    </div>
     <p><small>Dernière mise à jour le <time datetime="2023-11-02">02 novembre 2023</time></small></p>
    </footer>
 </body>
