@@ -1,21 +1,9 @@
-body *{
+main{
     display: flex;
 }
-header{
-    flex-direction: column;
-    align-items: center;
+div{
+    display: flex;
 }
-header>div{
-    justify-content: space-between;
-    align-items: center;
-}
-a{
-    margin: 0 50px;
-}
-main *{
-    flex-direction: column;
-}
-footer{
-    flex-direction: column;
-    align-items: center;
+main>div{
+flex-direction: column;
 }
