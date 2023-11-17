@@ -1,12 +1,9 @@
-main{
+main, div {
     display: flex;
 }
-div{
-    display: flex;
+main > div {
+    flex-direction: column;
 }
-main>div{
-flex-direction: column;
-}
-footer>div{
+footer > div {
     justify-content: center;
 }
