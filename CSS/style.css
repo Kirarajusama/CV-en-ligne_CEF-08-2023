@@ -15,6 +15,8 @@ h1{
     font-family: "lato", sans-serif;
     display: flex;
     justify-content: center;
+    font-size: 1.5em;
+    padding-bottom: 25px;
 }
 h2{
     font-family: "lato", sans-serif;
@@ -24,6 +26,7 @@ h2{
 }
 h3{
     font-family: "lato", sans-serif;
+    font-weight: bold;
 }
 /*en-tête*/
 header{
@@ -35,6 +38,12 @@ header>div{
     justify-content: space-between;
     padding: 25px 50px;
     align-items: center;
+}
+header>a{
+    padding-top: 35px;
+}
+header>a>img:hover{
+    cursor: zoom-in;
 }
 .head__picture{
     width: 150px;
@@ -50,17 +59,26 @@ a{
     display: flex;
     justify-content: center;
 }
+a:hover{
+    text-decoration: underline;
+}
 header>p{
     display: flex;
     justify-content: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 /*corp*/
 .info-bar{
     background-color: #782221;
-    width: 25%;
+    width: 35%;
     color: white;
-    padding: 0 20px 0 0;
+    padding-right: 50px;
+}
+.info-bar__title{
+    padding-left: 25px;
 }
 .info-bar__description{
     text-indent: 25px;
@@ -79,6 +97,11 @@ header>p{
     border-left-width: 10px;
     border-left-style: solid;
 }
+.element__texte:hover{
+    border-right-style: solid;
+    border-right-color: #782221;
+    border-right-width: 5px;
+}
 /*pied de page*/
 footer{
     background-color: #782221;
@@ -86,8 +109,12 @@ footer{
 }
 
 img{
-    width: 75px;
-    margin: 25px;
+    width: 50px;
+    margin: 15px;
+    border-radius: 25%;
+}
+.foot__networks__link:hover{
+    opacity: 0.8;
 }
 
 
